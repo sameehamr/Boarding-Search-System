@@ -1,0 +1,2 @@
+DROP TABLE BSS.user 
+DROP TABLE BSS.property
