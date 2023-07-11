@@ -1,5 +1,5 @@
 CREATE TABLE BSS.user (
-userId int NOT NULL,
+userId int NOT NULL AUTO_INCREMENT,
 user_role varchar(255) NOT NULL,
 user_name varchar(255) NOT NULL,
 user_password varchar(255) NOT NULL,
@@ -9,7 +9,7 @@ PRIMARY KEY (userId)
 );
 
 CREATE TABLE BSS.Property (
-propertyId int,
+propertyId int NOT NULL AUTO INCREMENT,
 room_type varchar(255) NOT NULL,
 rental decimal NOT NULL,
 gender_of_tenant char NOT NULL,
