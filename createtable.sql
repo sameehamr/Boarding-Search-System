@@ -3,7 +3,7 @@ userId int NOT NULL AUTO_INCREMENT,
 user_role varchar(255) NOT NULL,
 user_name varchar(255) NOT NULL,
 user_password varchar(255) NOT NULL,
-contact_no int NOT NULL,
+contact_no varchar(255) NOT NULL,
 address varchar(255),
 PRIMARY KEY (userId)
 );
